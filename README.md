@@ -2,7 +2,7 @@
 <img src="https://i.ibb.co/CKtCRWK/IMG-20201210-WA0118.jpg" alt="GIF" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="DANDISAPUTRA BOT" src="https://j.top4top.io/p_1782qid6g1.jpg?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="DANDISAPUTRA BOT" src="https://i.ibb.co/VWK8z6h/20210202-201349.jpg?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 
 
@@ -19,7 +19,7 @@ sofware open source yang harus di install
 
 ## Clone this project
 ```bash
-https://github.com/patricklightsec/BOTWAT-V1
+https://github.com/gapfinderindonesia/royco-botwa
 ```
 ## Tata cara penginstalan
 Sudah di test melalui OS Ubuntu,Kali linux,Parrot Os,chentOs,MacOs, tidak melayani hosting di gitpod.io
