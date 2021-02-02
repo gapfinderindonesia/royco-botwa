@@ -2,7 +2,7 @@
 <img src="https://i.ibb.co/CKtCRWK/IMG-20201210-WA0118.jpg" alt="GIF" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="DANDISAPUTRA BOT" src="https://i.ibb.co/fD5GcSm/Dandisaputra.jpg?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="DANDISAPUTRA BOT" src="https://e.top4top.io/p_1859fgha84.jpg?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 
 
