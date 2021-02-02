@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://a.top4top.io/p_1782chw1j1.jpg" alt="GIF" width="128" height="128"/>
+<img src="https://i.ibb.co/CKtCRWK/IMG-20201210-WA0118.jpg" alt="GIF" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="PATRICKDARKSEC BOT" src="https://j.top4top.io/p_1782qid6g1.jpg?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="DANDISAPUTRA BOT" src="https://j.top4top.io/p_1782qid6g1.jpg?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 
 
