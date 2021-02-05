@@ -5,7 +5,7 @@ const options = require('./options')
 
 const start = async (CR4R = new Client()) => {
         console.log('[SERVER] Bot Whatsapp sudah mulai!')
-         Force it to keep the current session
+        // Force it to keep the current session
         CR4R.onStateChanged((state) => {
             console.log('[CLIENT]', state)
             if (state === 'CONFLICT' || state === 'UNLAUNCHED') CR4R.forceRefocus()
