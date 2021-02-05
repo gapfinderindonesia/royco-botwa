@@ -27,12 +27,12 @@ const start = async (CR4R = new Client()) => {
 
         CR4R.onAddedToGroup(((chat) => {
             CR4R.sendText(chat.id, `Halo om, kalo mau masukin saya (bot) ke grub, silahkan hubungi wa.me/6281352445558. eeittts gak gratis ya :) (donasi seiklasnya min.5k) bye bye :p`).then(() => CR4R.leaveGroup(chat.id)).then(() => CR4R.deleteChat(chat.id))
-            // let totalMem = chat.groupMetadata.participants.length
-            // if (totalMem < 30) { 
-            // 	CR4R.sendText(chat.id, `Cih member nya cuma ${totalMem}, Kalo mau invite bot, minimal jumlah mem ada 30`).then(() => CR4R.leaveGroup(chat.id)).then(() => CR4R.deleteChat(chat.id))
-            // } else {
-            //     CR4R.sendText(chat.groupMetadata.id, `Halo warga grup *${chat.contact.name}* terimakasih sudah menginvite bot ini, untuk melihat menu silahkan kirim *help*`)
-            // }
+             let totalMem = chat.groupMetadata.participants.length
+             if (totalMem < 30) { 
+             	CR4R.sendText(chat.id, `Cih member nya cuma ${totalMem}, Kalo mau invite bot, minimal jumlah mem ada 30`).then(() => CR4R.leaveGroup(chat.id)).then(() => CR4R.deleteChat(chat.id))
+             } else {
+                 CR4R.sendText(chat.groupMetadata.id, `Halo warga grup *${chat.contact.name}* terimakasih sudah menginvite bot ini, untuk melihat menu silahkan kirim *help*`)
+             }
         }))
 
         /*CR4R.onAck((x => {
