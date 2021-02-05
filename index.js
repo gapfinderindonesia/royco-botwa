@@ -25,8 +25,6 @@ const start = async (CR4R = new Client()) => {
             left(CR4R, heuh)
         }))
 
-        // Hilangkan tanda // jika ingin mengaktifkan fiturnya
-        //fitur out otomatis
         CR4R.onAddedToGroup(((chat) => {
             CR4R.sendText(chat.id, `Halo om, kalo mau masukin saya (bot) ke grub, silahkan hubungi wa.me/6281352445558. eeittts gak gratis ya :) (donasi seiklasnya min.5k) bye bye :p`).then(() => CR4R.leaveGroup(chat.id)).then(() => CR4R.deleteChat(chat.id))
              let totalMem = chat.groupMetadata.participants.length
