@@ -1165,7 +1165,7 @@ module.exports = msgHandler = async (client, message) => {
                 if(piliha === 'mp3'){
                     try{
                         yts(linkk).then((a) => {
-                            if(a.durasi.split(':').length>=3) return client.reply(from, 'Video yang kamu inginkan lebih dari 1 jam. aku gak kuat mas\nkecuali kamu donasi 10k ke nomor 6282237416678',id)
+                            if(a.durasi.split(':').length>=3) return client.reply(from, 'Video yang kamu inginkan lebih dari 1 jam. aku gak kuat mas\nkecuali kamu donasi 10k ke nomor 6281352445558',id)
                             client.sendFileFromUrl(from, a.thumb, 'thumb.jpg', `➸ *Judul* : ${a.judul}\nUpload: ${a.upload}\nViewers: ${a.view}\nDurasi: ${a.durasi}\nYoutube: ${a.username}\n\n${donasi}\n\nSilahkan tunggu sebentar proses pengiriman file membutuhkan waktu beberapa menit.`, id)
                             ytmp3(a.url).then((b) => {
                                 client.sendFileFromUrl(from, b, a.judul, '',id)
@@ -1179,7 +1179,7 @@ module.exports = msgHandler = async (client, message) => {
                     try{
                         yts(linkk).then((a) =>{
                             if(a === 'error') return client.reply(from, 'Link salah',id)
-                            if(a.durasi.split(':').length>=3) return client.reply(from, 'Video yang kamu inginkan lebih dari 1 jam. aku gak kuat mas\nkecuali kamu donasi 10k ke nomor 6282237416678',id)
+                            if(a.durasi.split(':').length>=3) return client.reply(from, 'Video yang kamu inginkan lebih dari 1 jam. aku gak kuat mas\nkecuali kamu donasi 10k ke nomor 6281352445558',id)
                             ytmp4(a.url).then((b) => {
                                 client.sendFileFromUrl(from, b.url, a.judul, `➸ *Judul* : ${a.judul}\nUpload: ${a.upload}\nViewers: ${a.view}\nDurasi: ${a.durasi}\nYoutube: ${a.username}\n\n${donasi}`, id)
                             })
@@ -1201,7 +1201,7 @@ module.exports = msgHandler = async (client, message) => {
             let keyword = body.slice(5);
             try{
                 yts(keyword).then((a) => {
-                    if(a.durasi.split(':').length>=3) return client.reply(from, 'Video yang kamu inginkan lebih dari 1 jam. aku gak kuat mas\nkecuali kamu donasi 10k ke nomor 6282237416678',id)
+                    if(a.durasi.split(':').length>=3) return client.reply(from, 'Video yang kamu inginkan lebih dari 1 jam. aku gak kuat mas\nkecuali kamu donasi 10k ke nomor 6281352445558',id)
                     client.sendFileFromUrl(from, a.thumb, 'thumb.jpg', `➸ *Judul* : ${a.judul}\nUpload: ${a.upload}\nViewers: ${a.view}\nDurasi: ${a.durasi}\nYoutube: ${a.username}\n\n${donasi}\n\nSilahkan tunggu sebentar proses pengiriman file membutuhkan waktu beberapa menit.`, id)
                     ytmp3(a.url).then((b) => {
                         client.sendFileFromUrl(from, b, a.judul, '',id)
