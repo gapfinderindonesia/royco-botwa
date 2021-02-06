@@ -1241,6 +1241,8 @@ module.exports = msgHandler = async (client, message) => {
             break
         case 'creator':
             client.sendContact(from, '6281352445558@c.us')
+            tod = await getBuffer(`https://i.ibb.co/ZfS1nPC/images-2020-12-28-T142415-021.jpg`)
+                 client.sendMessage(from, tod, image, { quoted: mek, caption: '*ini waifu owner ku mau apa kau njing?*'})
             break
         
         case 'nsfw':
