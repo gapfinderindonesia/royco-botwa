@@ -933,7 +933,6 @@ module.exports = msgHandler = async (client, message) => {
             });
             break
         case 'tebakgambar':
-                await bocchi.reply(from, ind.wait(), id)
                 const tsleep = (ms) => {
                     return new Promise(resolve => setTimeout(resolve, ms))
                 }
