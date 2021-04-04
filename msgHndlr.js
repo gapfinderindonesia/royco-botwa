@@ -1865,6 +1865,8 @@ module.exports = msgHandler = async (client, message) => {
             break
         case 'info':
             client.sendLinkWithAutoPreview(from, 'https://github.com/gapfinderindonesia/royco-botwa', info)
+            client.sendLinkWithAutoPreview(from, 'https://www.youtube.com/channel/UCMVX_iwpCSrywG0EyHBW8gw', info)
+            client.sendLinkWithAutoPreview(from, 'https://youtube.com/channel/UCx1kMXl3PFdqJiB-eacvsUQ', info)
             break
         case 'snk':
             client.reply(from, snk, id)
