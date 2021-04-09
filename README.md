@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.ibb.co/CKtCRWK/IMG-20201210-WA0118.jpg" alt="GIF" width="128" height="128"/>
+<img src="https://ibb.co/pyHYHXFhttps:/ibb.co/pyHYHXF" alt="GIF" width="128" height="128"/>
 </p>
 <p align="center">
 <a href="#"><img title="./ROYCO BOT" src="https://i.ibb.co/yQb1jZw/Dandi-Saputra.jpg?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
